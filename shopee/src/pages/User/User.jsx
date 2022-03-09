@@ -14,7 +14,7 @@ export default function User() {
           <S.Brief>
             <S.BriefAvatar to={path.user + path.profile}>
               <img
-                src="https://cf.shopee.vn/file/121fdee6ef0b3535084382fd0914185b_tn"
+                src="https://raw.githubusercontent.com/SunHarry198/images/master/home/home-1.jpg"
                 alt=""
               />
             </S.BriefAvatar>
