@@ -21,7 +21,7 @@ export default function Navbar() {
         {authenticated && (
           <li>
             <S.User onMouseEnter={showPopover} onMouseLeave={hidePopover}>
-              <S.UserImage src="https://cf.shopee.vn/file/121fdee6ef0b3535084382fd0914185b_tn" />
+              <S.UserImage src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.30808-6/274230550_1655104068203224_6646650719344978754_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QKtsT0nhRXcAX_xNBJL&_nc_ht=scontent.fsgn5-4.fna&oh=00_AT-L97UbWf8EQ1Z8z0cRBCw3kmHWQ4ICwR9atDawbbYlpg&oe=622C97D4" />
               <S.UserName>{profile.name || profile.email}</S.UserName>
               <Popover active={activePopover}>
                 <S.UserLink to={path.user}>Tài khoản của tôi</S.UserLink>
